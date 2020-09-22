@@ -333,7 +333,13 @@ $(document).on('click', '.rmpwr', function(){
   $('body,html').animate({scrollTop: top}, 0);
   $('.modal-rmpwr').fadeIn('slow','linear');
 });
-
+$(document).on('click', '.fontan-prtf', function(){
+  event.preventDefault();
+  var id = $('.modalyak'),
+  top = $(id).offset().top;
+  $('body,html').animate({scrollTop: top}, 0);
+  $('.modal-fontan-prtf').fadeIn('slow','linear');
+});
 
 
 
