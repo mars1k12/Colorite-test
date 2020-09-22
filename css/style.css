@@ -2620,13 +2620,7 @@ footer .contacts_footer {
       padding-bottom: 25px;
    }
    .pricetime-name {
-     font-size: 18px;
-   }
-   .pricetime-time,
-   .pricetime-price,
-   .pricetime-more,
-   .pricetime-right {
-      font-size: 14px;
+     font-size: 20px;
    }
    .pricetime-more svg {
       height: 10px;
@@ -2638,6 +2632,9 @@ footer .contacts_footer {
       -o-transition: 0.5s;
       transition: 0.5s;
   }
+  .pricetime_inner-item {
+      margin-bottom: 16px;
+}
 }
 
 @media (max-width:480px) {
