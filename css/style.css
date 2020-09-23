@@ -2386,6 +2386,7 @@ footer .contacts_footer {
   .pricetime-price {
       text-align: left;
       margin: 10px 0;
+      grid-column-start: span 2;
    }
    .pricetime-more {
       float: none;
